@@ -52,7 +52,7 @@ print(name + name2)
 # Creează o variabilă `text` și setează-i un text la alegere, cu restricția ca acesta să conțină mai multe rânduri
 
 # CODUL TĂU VINE MAI JOS:
-text = "Wiki (pronunțat în engleză /ˈwɪki/) este o aplicație web ce permite utilizatorilor să adauge conținut și să păstreze propriile lor versiuni succesive, la fel ca pe un forum Internet, dar permite și oricui altcuiva să modifice conținutul. Wiki-urile fac parte din fenomenul recent numit Web 2.0. Termenul Wiki denumește și softwareul colaborativ folosit pentru crearea unui asemenea site web (vezi software Wiki)."
+text = "Wiki este o aplicație web ce permite utilizatorilor să adauge conținut și să păstreze propriile lor versiuni succesive, la fel ca pe un forum Internet, dar permite și oricui altcuiva să modifice conținutul. Wiki-urile fac parte din fenomenul recent numit Web 2.0. Termenul Wiki denumește și softwareul colaborativ folosit pentru crearea unui asemenea site web (vezi software Wiki)."
 # CODUL TĂU VINE MAI SUS:
 
 # Verifică dacă variabila `text` conține cuvântul `python`
@@ -106,19 +106,19 @@ print(f.find("o").__index__())
 # Utilizând format string-uri, creează un string care să conțină variabilele `name` și `name2`
 
 # CODUL TĂU VINE MAI JOS:
-
+print(f'{name} {name2}'.format(name, name2))
 # CODUL TĂU VINE MAI SUS:
 
 # Concatenează string-ul creat cu string-ul `text`
 
 # CODUL TĂU VINE MAI JOS:
-
+tot = f + text
 # CODUL TĂU VINE MAI SUS:
 
 # Afișează lungimea string-ului creat
 
 # CODUL TĂU VINE MAI JOS:
-
+print(len(tot))
 # CODUL TĂU VINE MAI SUS:
 
 # Aceasta a fost tot pentru această sarcină
